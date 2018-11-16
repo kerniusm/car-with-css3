@@ -1,0 +1,30 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* -webkit-animation-name: example; Safari 4.0 - 8.0 */
+    /* -webkit-animation-duration: 4s; Safari 4.0 - 8.0 */
+    /* animation-name: manoPavyzdys;
+    animation-duration: 4s; */
+
+    /* animation: manoPavyzdys 4s backwards/forwards/infinite; vienas is keliu galimu */
+    -webkit-animation:  manoPavyzdys 4s both;
+}
+
+/* Safari 4.0 - 8.0 */
+/* @-webkit-keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+} */
+
+
+/* Standard syntax */
+@keyframes manoPavyzdys {
+    0%   {background-color: red;}
+    15%  {background-color: yellow;}
+    45%  {background-color: blue;}
+    90% {background-color: green;}
+    100% {background-color: red;}
+}
